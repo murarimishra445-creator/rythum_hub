@@ -927,7 +927,7 @@ const $=id=>document.getElementById(id);
 const on=(id,ev,fn)=>{const el=$(id);if(el)el.addEventListener(ev,fn);};
 
 /* ══ AUTH STATE ══ */
-const API_BASE = 'http://localhost:3000'; // same server
+const API_BASE = 'https://rythum-hub.onrender.com'; // same server
 let currentUser = null;
 
 // Check if logged in (via localStorage token)
